@@ -17,7 +17,7 @@ streamlink/windows-builds
 
 ## Build forked version of streamlink which has --ffmpeg-dkey option for DRM content
 ```sh
-$ git clone https://github.com/imrsaleh/windows-builds_on_windows.git
+$ git clone https://github.com/imrsaleh/streamlink-build-on-windows.git
 $ cd windows-builds_on_windows
 $ pip install virtualenv
 $ virtualenv venv

@@ -9,16 +9,16 @@ streamlink/windows-builds
   - [pynsist](https://pypi.org/project/pynsist/) `==2.8`
   - [distlib](https://pypi.org/project/distlib/) `==0.3.6`
   - [freezegun](https://pypi.org/project/freezegun/)
-- [NSIS](https://nsis.sourceforge.io/Main_Page)
-- [jq](https://stedolan.github.io/jq/)
-- [gawk](https://www.gnu.org/software/gawk/)
+- [NSIS](https://nsis.sourceforge.io/Main_Page) `Add directory to the %PATH%`
+- [jq](https://stedolan.github.io/jq/) `rename file to jq.exe and add to %PATH%`
+- [gawk](https://gnuwin32.sourceforge.net/packages/gawk.htm)
 - [Imagemagick](https://imagemagick.org/index.php)
 - [Inkscape](https://inkscape.org/) `0.92.3`
 
 ## Build forked version of streamlink which has --ffmpeg-dkey option for DRM content
 ```sh
 $ git clone https://github.com/imrsaleh/streamlink-build-on-windows.git
-$ cd windows-builds_on_windows
+$ cd streamlink-build-on-windows
 $ pip install virtualenv
 $ virtualenv venv
 $ source venv/Scripts/activate

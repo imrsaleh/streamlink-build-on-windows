@@ -6,19 +6,19 @@ git:
   ref: 7.6.1
 assets:
   ffmpeg-x86_64:
-    filename: ffmpeg-n8.0-win64-gpl-8.0.zip
-    url: https://github.com/streamlink/FFmpeg-Builds/releases/download/20250822-1/ffmpeg-n8.0-win64-gpl-8.0.zip
-    sha256: 9fd3f1af180b45faabdfef95b1843890e868b6f1c883147f358efcc4b5da6d68
+    filename: ffmpeg-8.1.2-essentials_build.zip
+    url: https://github.com/GyanD/codexffmpeg/releases/download/8.1.2/ffmpeg-8.1.2-essentials_build.zip
+    sha256: sha256:db580001caa24ac104c8cb856cd113a87b0a443f7bdf47d8c12b1d740584a2ec
     type: zip
-    sourcedir: ffmpeg-n8.0-win64-gpl-8.0
+    sourcedir: ffmpeg-8.1.2-essentials_build
     targetdir: ffmpeg
     files:
       - from: bin/ffmpeg.exe
         to: ffmpeg.exe
-      - from: LICENSE.txt
-        to: LICENSE.txt
-      - from: BUILDINFO.txt
-        to: BUILDINFO.txt
+      - from: LICENSE
+        to: LICENSE
+      - from: README.txt
+        to: README.txt
 builds:
   py313-x86_64:
     implementation: cp
